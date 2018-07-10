@@ -1,0 +1,19 @@
+{
+  "name": "botdiscord",
+  "version": "1.0.0",
+  "description": "Bot officiel de la LegacyBattle",
+  "main": "main.js",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "yolo"
+  ],
+  "author": "Bluppy",
+  "license": "ISC"
+}
