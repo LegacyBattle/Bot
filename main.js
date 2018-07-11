@@ -1,4 +1,4 @@
-const Discord = require('discord.js');
+  const Discord = require('discord.js');
 const express = require('express');
 const app = express();
 
@@ -63,13 +63,22 @@ if (message.content === prefix + "help"){
 }
 
 if (message.content === prefix + "class"){
-    message.reply ('Voici le classement :ok_hand:', {files: ['./classement/actuel.png']});
+    message.reply ('Voici le classement :ok_hand: https://i.imgur.com/HzGesCw.jpg ');  //{files: ['./classement/actuel.png']} 
     console.log('Commande class éxécuté !')
 }
 
 if (message.content === prefix + "partage"){
     message.reply ('Voici le lien du serveur: https://discord.gg/QkuhP9z :vulcan:')
     console.log ('Commande partage éxécuté')
+}
+
+if (message.content === "TestBot"){
+    var help_embed = new Discord.RichEmbed()
+    .setColor('#B0AAFE')
+    .addField("TestBot", "reply for TestBot\nBot is ok")
+    message.channel.sendEmbed(help_embed);
+    console.log('Bot oppérationel')
+
 }
 
 });
