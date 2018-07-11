@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "Bot officiel de la LegacyBattle",
   "main": "main.js",
-  "script": {
-    "start": "node main.js"
-  "dependencies" {
+  "start": "node main.js"
+  "dependencies": {
     "discord.js": "^11.3.2",
     "express": "^4.16.3"
   },
