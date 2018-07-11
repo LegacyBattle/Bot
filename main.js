@@ -82,5 +82,3 @@ if (message.content === "TestBot"){
 }
 
 });
-
-client.login(process.env.BOT_TOKEN);
