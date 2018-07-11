@@ -5,7 +5,7 @@ const app = express();
 //DEBUT PARAMETRES HEROKU
 app.set('port', (process.env.PORT || 5000))
 
-app.listen(app.get('port'), function(){
+app.listen(app.get('por0t'), function(){
     console.log(`Bot en fonctionnement sur le port ${app.get('port')}`);
 })
 
